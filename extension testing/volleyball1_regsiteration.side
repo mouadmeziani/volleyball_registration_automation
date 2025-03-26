@@ -1,0 +1,57 @@
+{
+  "id": "0be881ca-0a07-4156-828a-9e8b6c4e293c",
+  "version": "2.0",
+  "name": "volleyball1_regsiteration",
+  "url": "https://anny.co",
+  "tests": [{
+    "id": "0ab3d7fc-3600-41d6-b2f7-65d417c1b07d",
+    "name": "vball1register",
+    "commands": [{
+      "id": "bd27ad64-8fdb-4877-b132-185a7f54439b",
+      "comment": "",
+      "command": "open",
+      "target": "/b/book/volleyball-i?step=calendar&s=ybpxjllvk3zl67ykdx4jpgjiiefa3x",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "5c6244be-cd94-4aaf-9d9d-124fe950460a",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "848x912",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "6438cfa1-57e6-4b30-bd42-174c2a9d2a80",
+      "comment": "",
+      "command": "click",
+      "target": "css=.selectable > .date-item-inner",
+      "targets": [
+        ["css=.selectable > .date-item-inner", "css:finder"],
+        ["xpath=//div[@id='eb-base-layout-container']/div[2]/main/div/div/div/div[2]/div[2]/div/div/div/div/div/div[2]/div/div/div/div/div/div/div/div[3]/div[5]/div[3]/div", "xpath:idRelative"],
+        ["xpath=//div[5]/div[3]/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "4abcbaa2-1cd6-4bbe-bdc0-ad77e98ee771",
+      "comment": "",
+      "command": "click",
+      "target": "css=.eb-btn > span:nth-child(1)",
+      "targets": [
+        ["css=.eb-btn > span:nth-child(1)", "css:finder"],
+        ["xpath=//div[@id='eb-base-layout-container']/div[2]/main/div/div/div/div[2]/div[2]/div/div/div/div/div/div[3]/div/div[2]/button/span", "xpath:idRelative"],
+        ["xpath=//div[2]/button/span", "xpath:position"]
+      ],
+      "value": ""
+    }]
+  }],
+  "suites": [{
+    "id": "75f0b72f-324d-4527-b956-90a96aac8443",
+    "name": "Default Suite",
+    "persistSession": false,
+    "parallel": false,
+    "timeout": 300,
+    "tests": ["0ab3d7fc-3600-41d6-b2f7-65d417c1b07d"]
+  }],
+  "urls": ["https://anny.co/"],
+  "plugins": []
+}
